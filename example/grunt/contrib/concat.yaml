@@ -1,0 +1,10 @@
+javascripts:
+  src:
+    - 'components/jquery/jquery.js'
+    - 'assets/javascripts/**.js'
+  dest: 'public/app.js'
+
+stylesheets:
+  src:
+    - 'assets/stylesheets/**.css'
+  dest: 'public/app.css'

@@ -1,0 +1,8 @@
+main:
+  files:
+    - expand: true
+      flatten: true
+      src:
+        - 'components/jquery/jquery.js'
+      dest: 'public'
+
