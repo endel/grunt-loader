@@ -1,8 +1,0 @@
-description: "Do something"
-requires:
-  - copy
-tasks:
-  - jshint
-  - copy
-  - uglify
-  - cssmin

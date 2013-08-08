@@ -2,13 +2,15 @@
   "name": "grunt-loader",
   "title": "Grunt Loader",
   "description": "A modular approach for grunt tasks. Forget about your Gruntfile.",
-  "version": "0.1.0",
-	"homepage": "http://endel.github.io/grunt-loader",
+  "version": "0.1.1",
+  "homepage": "http://endel.github.io/grunt-loader",
   "author": {
     "name": "Endel Dreyer",
     "email": "endel.dreyer@gmail.com",
     "url": "http://endel.me"
   },
+  "main" : "./grunt-loader",
+  "keywords": ["grunt", "gruntplugin"],
   "repository": {
     "type": "git",
     "url": "https://github.com/endel/grunt-loader.git"
@@ -16,13 +18,11 @@
   "bugs": {
     "url": "https://github.com/endel/grunt-loader/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/endel/grunt-loader/blob/master/LICENSE"
-    }
-  ],
-	"devDependencies": {
-		"grunt": "0.4.0",
-	}
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/endel/grunt-loader/blob/master/LICENSE"
+  }],
+  "devDependencies": {
+    "grunt": "0.4.0"
+  }
 }
