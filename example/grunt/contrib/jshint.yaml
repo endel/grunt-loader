@@ -1,8 +1,7 @@
-jshint:
-  all:
-    - 'Gruntfile.js'
-    - 'assets/javascripts/**.js'
-  options:
-    browser: true
-    evil : false
+all:
+  - 'Gruntfile.js'
+  - 'assets/javascripts/**.js'
+options:
+  browser: true
+  evil : false
 

@@ -1,6 +1,5 @@
-uglify:
-  javascripts:
-    files:
-      'public/app.min.js': <%= concat.javascripts.src %>
-    options:
-      preserveComments: 'some'
+javascripts:
+  files:
+    'public/app.min.js': <%= concat.javascripts.src %>
+  options:
+    preserveComments: 'some'
