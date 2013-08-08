@@ -44,7 +44,8 @@ you follow exactly the same directory structure:
 YAML vs JSON config
 ---
 
-IMHO, YAML format are easier to read than JSON.
+IMHO, YAML format are easier to read than JSON. You'll need to convert your
+configurations from JSON to YAML, which is fine in most cases.
 
 License
 ---
