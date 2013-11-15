@@ -1,3 +1,0 @@
-combine:
-  files:
-    'public/app.min.css': <%= concat.stylesheets.src %>

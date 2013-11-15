@@ -1,0 +1,20 @@
+main:
+  files:
+  - src:
+    - path/*
+    dest: dest/
+    filter: isFile
+  - src:
+    - path/**
+    dest: dest/
+  - expand: true
+    cwd: path/
+    src:
+    - '**'
+    dest: dest/
+  - expand: true
+    flatten: true
+    src:
+    - path/**
+    dest: dest/
+    filter: isFile

@@ -1,0 +1,38 @@
+compile:
+  files:
+    path/to/result.js: path/to/source.coffee
+    path/to/another.js:
+    - path/to/sources/*.coffee
+    - path/to/more/*.coffee
+compileBare:
+  options:
+    bare: true
+  files:
+    path/to/result.js: path/to/source.coffee
+    path/to/another.js:
+    - path/to/sources/*.coffee
+    - path/to/more/*.coffee
+compileJoined:
+  options:
+    join: true
+  files:
+    path/to/result.js: path/to/source.coffee
+    path/to/another.js:
+    - path/to/sources/*.coffee
+    - path/to/more/*.coffee
+compileWithMaps:
+  options:
+    sourceMap: true
+  files:
+    path/to/result.js: path/to/source.coffee
+    path/to/another.js:
+    - path/to/sources/*.coffee
+    - path/to/more/*.coffee
+glob_to_multiple:
+  expand: true
+  flatten: true
+  cwd: path/to
+  src:
+  - '*.coffee'
+  dest: path/to/dest/
+  ext: .js

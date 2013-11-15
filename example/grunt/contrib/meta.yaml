@@ -1,9 +1,0 @@
-name: "My project"
-banner: >
-  /*
-   * <%= pkg.homepage %>
-   *
-   * @build <%= grunt.template.today("m/d/yyyy") %>
-   */
-
-

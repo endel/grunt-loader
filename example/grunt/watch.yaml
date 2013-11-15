@@ -1,0 +1,4 @@
+files:
+- '**/*'
+tasks:
+- jshint

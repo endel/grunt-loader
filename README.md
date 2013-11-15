@@ -1,11 +1,9 @@
-Grunt loader v0.1.1
+Grunt loader v0.2.0
 ===
 
-A modular approach for grunt configuration. Forget about your Gruntfile.
-
-This project aims to simplify your Gruntfile configuration by simply dropping
-stand-alone YAML configuration files at `grunt/contrib/{package}.yaml`, and
-tasks at `grunt/tasks/{taskname}.yaml`.
+A modular approach for grunt configuration.
+Configure each of your plugins using [YAML](http://nodeca.github.io/js-yaml/) files, and don't ever touch your
+Gruntfile.js.
 
 Please submit your questions, ideas or wathever here at [github issues](https://github.com/endel/grunt-loader/issues).
 
@@ -14,38 +12,46 @@ How to use
 
 1. Add 'grunt-loader' dependency on your `package.json`:
 
-        "devDependencies": {
-            ...
-            "grunt-loader": "0.1.1"
-        }
+	"devDependencies": {
+			...
+			"grunt-loader": "0.2.0"
+	}
 
 2. Configure your Gruntfile once. It should looks like this:
 
-    module.exports = function(grunt) {
-      require('grunt-loader').load(grunt);
-    };
+	module.exports = function(grunt) {
+		require('grunt-loader').load(grunt);
+	};
 
-3. Customize your contrib-* things and tasks at `grunt/contrib` and `grunt/tasks` directories.
+3. Customize your configuration and tasks at `grunt/*.yaml` and `grunt/tasks/*.yaml`
 
-Directory structure
+At the `example` directory you can see a list of plugins usage examples, on the
+`yaml` format.
+
+Advantages
 ---
 
-Take a look at the `example` directory on this repository. It's important that
-you follow exactly the same directory structure:
+Pros:
+- easier to find and modify (you don't need to scroll around all your Gruntfile)
+- easier to copy/paste configurations through different projects
 
-    project-root/
-    ├── grunt/
-    |   ├── contrib/    # contrib definitions
-    |   └── tasks/      # custom tasks
-    |       └── default.yaml
-    ├── Gruntfile.js
-    └── package.json
+Cons:
+- you'll need to learn YAML file format, which isn't a big deal
 
-YAML vs JSON config
+
+Contributing
 ---
 
-IMHO, YAML format are easier to read than JSON. You'll need to convert your
-configurations from JSON to YAML, which is fine in most cases.
+Please contribute by submitting YAML configuration of any plugin you use. This
+helps new-comers to get started.
+
+Also you're welcome to submit new features or discuss ideas.
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
 
 License
 ---

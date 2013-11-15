@@ -1,0 +1,9 @@
+string: value
+some_array:
+  - one
+  - two
+  - three
+hash_map:
+  key1: one
+  key2: two
+  key3: three

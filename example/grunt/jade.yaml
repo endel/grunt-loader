@@ -1,0 +1,8 @@
+compile:
+  options:
+    data:
+      debug: false
+  files:
+    path/to/dest.html:
+    - path/to/templates/*.jade
+    - another/path/tmpl.jade

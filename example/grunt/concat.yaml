@@ -1,0 +1,8 @@
+options:
+  separator: ;
+dist:
+  src:
+  - src/intro.js
+  - src/project.js
+  - src/outro.js
+  dest: dist/built.js
