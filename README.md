@@ -1,4 +1,4 @@
-Grunt loader v0.2.0
+Grunt loader v0.2.0 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/endel/grunt-loader/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 ===
 
 A modular approach for grunt configuration.
