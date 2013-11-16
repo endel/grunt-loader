@@ -12,16 +12,16 @@ How to use
 
 1. Add 'grunt-loader' dependency on your `package.json`:
 
-	"devDependencies": {
-			...
-			"grunt-loader": "0.2.0"
-	}
+		"devDependencies": {
+				...
+				"grunt-loader": "0.2.0"
+		}
 
 2. Configure your Gruntfile once. It should looks like this:
 
-	module.exports = function(grunt) {
-		require('grunt-loader').load(grunt);
-	};
+		module.exports = function(grunt) {
+			require('grunt-loader').load(grunt);
+		};
 
 3. Customize your configuration and tasks at `grunt/*.yaml` and `grunt/tasks/*.yaml`
 
