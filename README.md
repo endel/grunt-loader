@@ -1,4 +1,4 @@
-Grunt loader v0.2.0 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/endel/grunt-loader/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+Grunt loader v0.2.1 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/endel/grunt-loader/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 ===
 
 A modular approach for grunt configuration.
@@ -14,7 +14,7 @@ How to use
 
 		"devDependencies": {
 				...
-				"grunt-loader": "0.2.0"
+				"grunt-loader": "0.2.1"
 		}
 
 2. Configure your Gruntfile once. It should looks like this:

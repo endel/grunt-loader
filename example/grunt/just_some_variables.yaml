@@ -1,4 +1,8 @@
 string: value
+
+# retrieving data from bower.json file
+app_path: <%= bower_file.appPath || "app" %>
+
 some_array:
   - one
   - two

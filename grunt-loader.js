@@ -3,7 +3,7 @@ var path = require('path');
 /**
  * VERSION
  */
-exports.VERSION = "0.2.0";
+exports.VERSION = "0.2.1";
 
 /**
  * Load grunt config / tasks
@@ -16,7 +16,7 @@ exports.load = function(grunt) {
 
 	// load bower.json, if it exists
 	if (grunt.file.exists('bower.json')) {
-		init['bower_file'] = grunt.file.readJSON('package.json');
+		init['bower_file'] = grunt.file.readJSON('bower.json');
 	}
 
 	// Read all grunt contrib configurations
