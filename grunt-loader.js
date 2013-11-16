@@ -26,7 +26,7 @@ exports.load = function(grunt) {
 		var file = filename.match(/[^\.]+/),
 				config = (file[1] == ".json" ? grunt.file.readJSON(abspath) : grunt.file.readYAML(abspath)),
 				packageName = file[0],
-				packages = [ packageName, "grunt-contrib-" + packageName ];
+				packages = [ "grunt-contrib-" + packageName, "grunt-" + packageName, packageName ];
 
 		for (var i = packages.length - 1; i >= 0; i--){
 			var root = path.resolve('node_modules');
