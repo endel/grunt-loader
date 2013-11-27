@@ -2,7 +2,7 @@
   "name": "grunt-loader",
   "title": "Grunt Loader",
   "description": "A modular approach for grunt tasks. Forget about your Gruntfile.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "homepage": "http://endel.github.io/grunt-loader",
   "author": {
     "name": "Endel Dreyer",

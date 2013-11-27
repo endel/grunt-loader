@@ -19,6 +19,14 @@ exports.load = function(grunt) {
 		init['bower_file'] = grunt.file.readJSON('bower.json');
 	}
 
+	// load config.yaml/config.json, if it exists
+	init['config'] = {}
+	if (grunt.file.exists('config.yaml')) {
+		init['config'] = grunt.file.readYAML('config.yaml');
+	} else if(grunt.file.exists('config.json')) {
+		init['config'] = grunt.file.readJSON('config.json');
+	}
+
 	// Read all grunt contrib configurations
 	grunt.file.recurse("grunt", function(abspath, rootdir, subdir, filename) {
 		if (filename[0] == ".") { return; }
